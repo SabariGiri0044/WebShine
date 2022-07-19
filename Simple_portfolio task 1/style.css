@@ -1,0 +1,22 @@
+body {
+    background-color: coral;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(45, 178, 120);
+}
+
+tr td {
+    padding: 10px;
+    background-color: rgb(197, 108, 75);
+}
+
+th {
+    padding: 10px;
+    background-color: rgb(67, 199, 10);
+
+}

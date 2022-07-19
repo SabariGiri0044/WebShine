@@ -1,0 +1,26 @@
+.flex-right-container{
+  display: flex;
+    }
+
+  .flex-left-container{
+display: flex;
+  }
+  
+  body{
+    background-color: blue;
+    font-family: Arial;
+    font-size: 35px;
+    border: 5px;
+    border-style:double;
+    padding: 20px;
+  }
+   .flex-left-container:nth-child(even)
+   {
+    flex-direction: row-reverse;
+    padding: 20px;
+    
+   }
+   .content{
+    border: 4px;
+    border-style:groove;
+   }
